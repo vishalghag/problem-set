@@ -1,3 +1,4 @@
+// repo name:-  git push git@github.com:vishalghag/problem-set.git
 // Find Missing Number: Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
 
 // Product of Array Except Self: Given an array nums, return an array output such that output[i] is equal to the product of all elements in nums except nums[i].
@@ -6,7 +7,6 @@
 
 // Merge Sorted Arrays: Given two sorted arrays, merge them into a single sorted array.
 
-// Move Zeros to the End: Given an array of integers, move all the zeros to the end while maintaining the order of the other elements.
 
 // Find the Longest Increasing Subarray: Find the longest subarray in an unsorted array that is in strictly increasing order.
 
