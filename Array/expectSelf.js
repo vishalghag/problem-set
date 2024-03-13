@@ -13,14 +13,12 @@ const productExceptSelf = (nums) => {
   let leftProduct = 1;
   for (let i = 0; i < n; i++) {
     result[i] = leftProduct;
-    console.log(result[i], "left");
     leftProduct *= nums[i];
   }
 
   // Calculate right products
   let rightProduct = 1;
   for (let i = n - 1; i >= 0; i--) {
-    console.log(result, "right");
     result[i] *= rightProduct;
     rightProduct *= nums[i];
   }
