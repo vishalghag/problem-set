@@ -15,7 +15,6 @@ const longestSubString = (input) => {
   while (right < input.length) {
     // Loop until the right boundary reaches the end of the input string
     let letter = input[right]; // Get the character at the current right boundary
-    console.log(letter, "letter");
     if (!set.has(letter)) {
       // Check if the set does not contain the current character
       set.add(letter); // Add the current character to the set
