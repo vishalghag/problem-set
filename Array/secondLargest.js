@@ -1,4 +1,4 @@
-const num = [4, 6, 2, 7, 1, 9, 8]; // Define the input array
+const num = [, 10, 4, 6, 2, 7, 1, 9, 8, 20, 20]; // Define the input array
 
 const secondLargestNum = (num) => {
   // Define a function called secondLargestNum that takes an array as input
@@ -23,7 +23,7 @@ const secondLargestNum = (num) => {
 
       firstLargest = num[i];
       // Update the largest number with the current number
-    } else if (num[i] > secondLargest) {
+    } else if (num[i] > secondLargest && num[i] != firstLargest) {
       // If the current number is not larger than the largest,
       // check if it is larger than the second largest
 
